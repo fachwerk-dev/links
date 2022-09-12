@@ -12,12 +12,11 @@ const transform = (data) => {
 
 const id = "1ZrQ_OwfitB7dvZh4LzUmanbEX6oR3kWI2YVBTkFLZfc";
 const key = "AIzaSyAxP7q5yFR1ZikJTVr_gcyECYgbJCEghqc";
-
 const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/links?alt=json&key=${key}&majorDimension=ROWS`;
+
 const { data } = await useFetch(url, {
   transform,
   key: "sheets",
-  server: true,
 });
 
 const cutoff = 562;
