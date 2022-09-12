@@ -35,7 +35,7 @@ const cutoff = 562;
           target="_blank"
         >
           <div
-            class="shrink-0 bg-red-500 font-medium text-white rounded-full w-10 h-10 gap-8 grid place-content-center"
+            class="bg-red-500 font-medium text-white rounded-full w-10 h-10 gap-8 grid place-content-center"
           >
             {{ 562 + i + 1 }}
           </div>
